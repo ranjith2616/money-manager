@@ -1,0 +1,34 @@
+.delete-img {
+  background: transparent;
+  height: 30px;
+}
+
+.delete-button {
+  background: transparent;
+  border: 0;
+  height: 15px;
+  margin-bottom: 16px;
+  outline: none;
+  cursor: pointer;
+}
+.transaction-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-top: 0;
+  height: 40px;
+  padding: 16px;
+}
+.output {
+  flex-grow: 1;
+}
+.delete-card {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .output {
+    font-size: 12px;
+  }
+}
